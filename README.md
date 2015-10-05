@@ -22,10 +22,10 @@ class CookieCheckController extends Controller
     //...bla bla bla
     
     if (isset($_COOKIE["site_cookie_check"])){
-    $cookie = "";
+    	$cookie = "";
     }
     else{
-    $cookie = setcookie("site_cookie_check", "web-site.com", time() + 365*24*3600, "/", null, false, true); 
+    	$cookie = setcookie("site_cookie_check", "web-site.com", time() + 365*24*3600, "/", null, false, true); 
     }
     
     //...bla bla bla

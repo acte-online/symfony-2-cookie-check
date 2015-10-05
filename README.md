@@ -1,5 +1,16 @@
 #symfony-2-cookie-check
-
+```json
+   // code for coloring
+```
+```html
+   // code for coloring
+```
+```js
+   // code for coloring
+```
+```css
+   // code for coloring
+```
 <b>Avertissement de l'utilisation des cookies</b>
 
 <br />

@@ -13,7 +13,7 @@ CookieCheckController.php
 
 <br />
 
-<pre><code><?php</code></pre>
+<pre><code>
 namespace BUNDLE\SiteBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class PageSiteController extends Controller

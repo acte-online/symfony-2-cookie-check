@@ -3,13 +3,6 @@
 
 <br />
 
-Pourquoi faire compliqué quand on peut faire simple...
-
-Le but but de ce petit script est de créer un cookie unique, afin de contrôler son existence sur le poste client.
-Si il est existant on le crée pas, le cas contraire on avertit le visiteur et on le crée...
-
-<br />
-
 <b>CookieCheckController.php</b>
 
 ```php
@@ -40,8 +33,8 @@ class CookieCheckController extends Controller
 <br />
 
 <b>index.html.twig</b>
+
 <br />
-Ici c'est avec Twig mais c'est faisable également en php...
 
 ```html
 ...
@@ -68,7 +61,7 @@ Le bouton "btn btn-default" vient du template css Bootstrap 3.3.5
 
 <br />
 
-Si le cookie n'est pas créé, effectivement, il va ce créer avant même l'avertissement... Quel site n'utilise pas de cookie ?
+Si le cookie n'est pas créé, effectivement, il va ce créer avant même l'avertissement...
 Je reviendrai dessus quand j'aurais le temps.. Pour le créer aprés validation du client.. Pour l'instant ça reste comme ça..
 
 <br />

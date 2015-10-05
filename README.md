@@ -37,6 +37,28 @@ class CookieCheckController extends Controller
 
 <br />
 
+<b>index.html.twig</b>
+Ici c'est avec Twig mais c'est faisable également en php...
+
+```html
+...
+
+{% if app.request.cookies.get('site_cookie_check') %}
+		
+{% else %}
+	<div id="cookie-div" class="cookie-check-div">
+		<div class="cookie-check-div-txt">
+			En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookie.
+		</div>
+		<div class="cookie-check-div-bt">
+			<a id="cookie-check-bt" class="btn btn-default" href="#" role="button">Ok</a>
+		</div>
+	</div>
+{% endif %}
+
+...
+```
+
 Le bouton "btn btn-default" vient du template css Bootstrap 3.3.5
 
 

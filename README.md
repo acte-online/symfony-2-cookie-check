@@ -13,7 +13,7 @@ CookieCheckController.php
 
 <br />
 
-<code>
+<pre><code>
 <?php namespace BUNDLE\SiteBundle\Controller;use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class PageSiteController extends Controller
 {
@@ -30,7 +30,7 @@ class PageSiteController extends Controller
     return $this->render("BUNDLESiteBundle:Page:index.html.twig", array("cookie" => $cookie,));
   }
 }
-</code>
+</code></pre>
 <br />
 
 Le bouton "btn btn-default" vient du template css Bootstrap 3.3.5

@@ -17,7 +17,6 @@ class CookieCheckController extends Controller
 {
   public function indexAction()
   {
-    //On créé le cookie de check
     if (isset($_COOKIE["site_cookie_check"])){
     $cookie = "";
     }

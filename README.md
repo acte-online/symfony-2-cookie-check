@@ -1,16 +1,4 @@
 #symfony-2-cookie-check
-```json
-   // code for coloring
-```
-```html
-   // code for coloring
-```
-```js
-   // code for coloring
-```
-```css
-   // code for coloring
-```
 <b>Avertissement de l'utilisation des cookies</b>
 
 <br />
@@ -24,9 +12,7 @@ CookieCheckController.php
 
 <br />
 
-<pre><code>
-...
-
+```php
 class CookieCheckController extends Controller
 {
   public function indexAction()
@@ -42,8 +28,7 @@ class CookieCheckController extends Controller
   }
 }
 
-...
-</code></pre>
+```
 
 <br />
 

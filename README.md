@@ -68,4 +68,9 @@ Le bouton "btn btn-default" vient du template css Bootstrap 3.3.5
 
 <br />
 
+Si le cookie n'est pas créé, effectivement, il va ce créer avant même l'avertissement... Quel site n'utilise pas de cookie ?
+Je reviendrai dessus quand j'aurais le temps.. Pour le créer aprés validation du client.. Pour l'instant ça reste comme ça..
+
+<br />
+
 Exemple, si pas visité.. : <a href="http://acte-online.com" target="_blank">http://acte-online.com</a>

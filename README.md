@@ -1,8 +1,6 @@
 #symfony-2-cookie-check
 <b>Avertissement de l'utilisation des cookies</b>
 
-<br />
-
 Pourquoi faire compliqué quand on peut faire simple...
 
 Le but but de ce petit script est de créer un cookie unique, afin de contrôler son existence sur le poste client.

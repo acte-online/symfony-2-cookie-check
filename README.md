@@ -9,9 +9,10 @@ Si il est existant on le crée pas, le cas contraire on avertit le visiteur et o
 <br />
 
 <b>CookieCheckController.php</b>
-...
 
 ```php
+...
+
 class CookieCheckController extends Controller
 {
   public function indexAction()
@@ -27,8 +28,8 @@ class CookieCheckController extends Controller
   }
 }
 
-```
 ...
+```
 
 <br />
 

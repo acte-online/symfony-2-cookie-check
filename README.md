@@ -38,6 +38,7 @@ class CookieCheckController extends Controller
 <br />
 
 <b>index.html.twig</b>
+<br />
 Ici c'est avec Twig mais c'est faisable également en php...
 
 ```html
@@ -60,7 +61,6 @@ Ici c'est avec Twig mais c'est faisable également en php...
 ```
 
 Le bouton "btn btn-default" vient du template css Bootstrap 3.3.5
-
 
 <br />
 

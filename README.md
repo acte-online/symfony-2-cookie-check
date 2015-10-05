@@ -26,7 +26,6 @@ class PageSiteController extends Controller
     else{
     $cookie = setcookie("site_cookie_check", "web-site.com", time() + 365*24*3600, "/", null, false, true); 
     }
-    
     return $this->render("BUNDLESiteBundle:Page:index.html.twig", array("cookie" => $cookie,));
   }
 }

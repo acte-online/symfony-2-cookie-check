@@ -1,0 +1,15 @@
+...
+{% if app.request.cookies.get('site_cookie_check') %}
+		
+{% else %}
+	<div id="cookie-div" class="cookie-check-div">
+		<div style="float:left;margin:auto auto auto auto;padding:5px;">
+			En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookie.
+		</div>
+
+		<div style="float:right">
+			<a id="cookie-check-bt" class="btn btn-default" href="#" role="button">Ok</a>
+		</div>
+	</div>
+{% endif %}
+...

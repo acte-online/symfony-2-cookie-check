@@ -12,6 +12,8 @@ CookieCheckController.php
 
 <br />
 
+...
+
 ```php
 class CookieCheckController extends Controller
 {
@@ -29,6 +31,7 @@ class CookieCheckController extends Controller
 }
 
 ```
+...
 
 <br />
 

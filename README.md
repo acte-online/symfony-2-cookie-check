@@ -14,7 +14,6 @@ CookieCheckController.php
 <br />
 
 <code>
-<?php
 namespace BUNDLE\SiteBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class PageSiteController extends Controller

@@ -5,8 +5,6 @@
 
 Pourquoi faire compliqué quand on peut faire simple...
 
-<br />
-
 Le but but de ce petit script est de créer un cookie unique, afin de contrôler son existence sur le poste client.
 Si il est existant on le crée pas, le cas contraire on avertit le visiteur et on le crée...
 

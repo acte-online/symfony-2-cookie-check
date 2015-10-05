@@ -17,7 +17,7 @@ class CookieCheckController extends Controller
 {
   public function indexAction()
   {
-    ...
+    //...bla bla bla
     
     if (isset($_COOKIE["site_cookie_check"])){
     $cookie = "";
@@ -26,7 +26,7 @@ class CookieCheckController extends Controller
     $cookie = setcookie("site_cookie_check", "web-site.com", time() + 365*24*3600, "/", null, false, true); 
     }
     
-    ...
+    //...bla bla bla
     
     return $this->render("BUNDLESiteBundle:Page:index.html.twig", array("cookie" => $cookie,));
   }

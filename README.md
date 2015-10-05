@@ -10,6 +10,9 @@ Si il est existant on le crée pas, le cas contraire on avertit le visiteur et o
 <br />
 
 CookieCheckController.php
+
+<br />
+
 <?php
 namespace BUNDLE\SiteBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;

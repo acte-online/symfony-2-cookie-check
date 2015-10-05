@@ -45,6 +45,7 @@ Ici c'est avec Twig mais c'est faisable également en php...
 
 ```html
 ...
+//...bla bla bla
 
 {% if app.request.cookies.get('site_cookie_check') %}
 		
@@ -59,6 +60,7 @@ Ici c'est avec Twig mais c'est faisable également en php...
 	</div>
 {% endif %}
 
+//...bla bla bla
 ...
 ```
 

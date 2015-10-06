@@ -1,9 +1,9 @@
 #symfony-2-cookie-check
 <b>Avertissement de l'utilisation des cookies</b>
 
+<br />
 
 <b>CookieCheckController.php</b>
-
 ```php
 ...
 
@@ -30,9 +30,6 @@ class CookieCheckController extends Controller
 ```
 
 <b>index.html.twig</b>
-
-<br />
-
 ```html
 ...
 //...bla bla bla

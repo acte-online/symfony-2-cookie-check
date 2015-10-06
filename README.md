@@ -29,6 +29,8 @@ class CookieCheckController extends Controller
 ...
 ```
 
+<br />
+
 <b>index.html.twig</b>
 ```html
 ...
@@ -52,6 +54,8 @@ class CookieCheckController extends Controller
 ```
 
 Le bouton "btn btn-default" vient du template css Bootstrap 3.3.5
+
+<br />
 
 <b>style.css</b>
 ```css

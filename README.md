@@ -57,6 +57,15 @@ Le bouton "btn btn-default" vient du template css Bootstrap 3.3.5
 
 <br />
 
+<b>.js</b>
+
+```js
+$(document).ready(function(){
+	$('#cookie-div:hidden').fadeIn(1000);
+	$('#cookie-check-bt').click(function(){$('#cookie-div').fadeOut(1000);});
+});
+```
+
 <b>style.css</b>
 ```css
 ...

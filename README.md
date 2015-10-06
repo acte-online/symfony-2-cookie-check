@@ -41,7 +41,7 @@ class CookieCheckController extends Controller
 {% else %}
 	<div id="cookie-div" class="cookie-check-div">
 		<div class="cookie-check-div-txt">
-			En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookie.
+			Notre site Web utilise des cookies afin de nous aider à améliorer votre expérience du site et à la rendre plus efficace.
 		</div>
 		<div class="cookie-check-div-bt">
 			<a id="cookie-check-bt" class="btn btn-default" href="#" role="button">Ok</a>

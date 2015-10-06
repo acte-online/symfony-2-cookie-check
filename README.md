@@ -1,7 +1,6 @@
 #symfony-2-cookie-check
 <b>Avertissement de l'utilisation des cookies</b>
 
-<br />
 
 <b>CookieCheckController.php</b>
 
@@ -30,8 +29,6 @@ class CookieCheckController extends Controller
 ...
 ```
 
-<br />
-
 <b>index.html.twig</b>
 
 <br />
@@ -58,6 +55,35 @@ class CookieCheckController extends Controller
 ```
 
 Le bouton "btn btn-default" vient du template css Bootstrap 3.3.5
+
+<b>style.css</b>
+```css
+...
+
+.cookie-check-div{
+	display:none;
+	width:100%;
+	padding:20px;
+	position:fixed;
+	left:0;
+	top:0;
+	color:#fff;
+	background:#555;
+	z-index:99999999999;
+}
+
+.cookie-check-div-txt{
+	float:left;
+	margin:auto auto auto auto;
+	padding:5px;
+}
+
+.cookie-check-div-bt{
+	float:right
+}
+
+...
+```
 
 <br />
 
